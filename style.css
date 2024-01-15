@@ -11,7 +11,7 @@ body{
 /* header styles */
 
 .header{
-    max-width: 1170px;
+    max-width: 1250px;
     margin: 30px auto;
     /* border: 3px solid blue; */
     display: flex;
@@ -68,4 +68,63 @@ body{
 
 #toggler, label{
     display: none;
+}
+
+/* styling banner */
+.banner{
+    max-width: 1250px;
+    height: 500px ;
+    border: 2px solid blue;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    justify-content: center;
+    
+}
+.banner-content{
+    border: 2px solid yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.travel-form{
+    border: 2px solid red;
+    display: block;
+    
+}
+.travel-form input{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 1rem;
+    font-weight: 400;
+    padding-left: 5px;
+    margin-right: 20px;
+    
+}
+.travel-form select{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 1rem;
+    font-weight: 400;
+    padding-left: 5px;
+    margin-right: 20px;
+}
+.primary-button{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
 }
