@@ -110,7 +110,7 @@ body{
 .travel-form{
     /* border: 2px solid red; */
     margin-top: 20px;
-    display: block;
+    display: flex;
     padding: 20px;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
