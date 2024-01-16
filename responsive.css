@@ -122,7 +122,14 @@
         margin-top: 5px;
         margin-bottom: 5px;
     }
-    
+    .newsletter{
+        margin: 0 auto;
+        display: flex;
+    }
+    .newsletter-info{
+        display: flex;
+        flex-direction: column;
+    }
 
         
 

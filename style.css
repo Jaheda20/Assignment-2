@@ -276,3 +276,93 @@ body{
     margin-top: 15px;
     margin-bottom: 15px;
 }
+/* newsletter section styling */
+.newsletter{
+    max-width: 1250px;
+    height: 500px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+.newsletter-info{
+    width: 474px;
+    height: 420px;
+    border: 1px solid #FF5400;
+    border-radius: 16px;
+    /* padding: 40px; */
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+}
+.newsletter-message{
+    padding: 30px;
+
+}
+.newsletter-form{
+    /* padding-left: 40px; */
+}
+.newsletter-form input{
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    justify-items: center;
+    margin: 10px 30px 10px 30px;
+    padding: 12px;
+}
+.s-button{
+    width: 393px;
+    height: 52px;
+    border: #FFF;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 800;
+    padding: 12px;
+    margin: 10px 30px 10px 30px;
+
+}
+.travel-image{
+    width: 672px;
+    height: 422px;
+    /* border: 1px solid green; */
+    background-image: url(Images/Rectangle\ 8\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.discount{
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    border-radius: 16px;
+    background: #FF5400;
+    position: absolute;
+    text-align: center;
+    padding-top: 40px;
+    top: 50%;
+    left: 50%;
+    
+}
+.discount p{
+    text-align: center;
+    align-items: center;
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.discount h3{
+    color: #FFF;
+    font-size: 2rem;
+    font-weight: 800;
+    
+}
