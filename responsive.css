@@ -2,11 +2,13 @@
     .header{
         flex-wrap: wrap;
         padding: 20px;
+        
     }
     .items-container{
         width: 100%;
         max-height: 0;
         overflow: hidden;
+        
     }
     label{
         display: inline-flex;
@@ -15,10 +17,12 @@
 
     .banner{
         width: 335px;
-        height: 483px;
+        height: 500px;
         padding: 20px;
         /* border-radius: 16px; */
         background-size: cover;
+        
+        
     }
     .banner-title{
         font-size: 1.3rem;
