@@ -237,11 +237,11 @@ body{
     gap: 30px;
 }
 .card{
-    flex-basis: 500px;
+    flex-basis: 470px;
 }
 #one{
-    width: 550px;
-    height: 250px;
+    /* width: 570px; */
+    height: 280px;
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
@@ -249,16 +249,16 @@ body{
     text-align: left;
 }
 #two{
-    width: 550px;
-    height: 250px;
+    width: 570px;
+    height: 280px;
     border-radius: 16px;
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
     text-align: left;
 }
 #three{
-    width: 550px;
-    height: 250px;
+    width: 570px;
+    height: 280px;
     border-radius: 16px;
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
@@ -279,7 +279,6 @@ body{
 /* newsletter section styling */
 .newsletter{
     max-width: 1250px;
-    height: 500px;
     margin: 0 auto;
     /* border: 1px solid red; */
     display: flex;
@@ -333,7 +332,7 @@ body{
 .travel-image{
     width: 672px;
     height: 422px;
-    /* border: 1px solid green; */
+    /* border: 1px solid green;  */
     background-image: url(Images/Rectangle\ 8\ \(1\).png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -365,4 +364,4 @@ body{
     font-size: 2rem;
     font-weight: 800;
     
-}
+} 
