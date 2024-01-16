@@ -102,10 +102,10 @@
     }
     .card-container{
         width: 90%;
+        
      
     }
-    /* .card, #one, #two, #three{ */
-        .card{
+    #one, #two, #three{
         width: 100%;
         height: 100%;
         margin: 0;
