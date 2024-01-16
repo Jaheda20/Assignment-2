@@ -222,7 +222,7 @@ body{
 .choose-us .title{
     margin-bottom: 30px;  
 }
-.choose-us .description{
+.choose-us p{
     margin-bottom: 50px;
     
 }
@@ -253,6 +253,10 @@ body{
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
 
+}
+.card img{
+    width: 64px;
+    height: 64px;
 }
 .sub-title{
     color: #131318;
